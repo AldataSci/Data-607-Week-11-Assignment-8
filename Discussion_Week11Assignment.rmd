@@ -1,0 +1,86 @@
+---
+title: "Week 11 Recommender System"
+author: "Al Haque"
+date: "4/11/2022"
+output: html_document
+
+---
+
+### Introduction: 
+
+  Recommender systems are designed to recommend things to the user based on different factors such as the history of purchase, items in their shopping carts, and things of interest. Companies worldwide implement recommender systems to help users identify correct products or help introduce items to users that they have never seen or used before. 
+  
+### Overview: 
+ Users familiar with recommender systems may be aware of techniques such as collaborative filtering or cluster modeling. Collaborative modeling is the algorithm that may look for similar items where it aggregates the items and recommends them. Cluster modeling is where the user is placed in a group with similar customers and then is recommended similar items within that group to the customer. 
+ 
+------
+
+### Macy's:
+ Macy's is an American chain of department stores that that sells the latest fashion products which include but are not limited to cosmetics,shoes,clothes,jewelry,watches and more.
+
+![](https://i.imgur.com/bjtfwuE.png)
+ 
+#### Scenario Design
+__Target Users__
+The target market is: 
+ 
+customers looking to shop for clothes or various fashion items 
+
+__Key Goals__
+Key Goals are:
+
+Help users find the fashion item that they are interested for in the correct color,size and price
+
+__How Goals are Accomplished__
+
+Users can look up the specific item they are interested in, or users can browse by certain categories such as brand or type of outfit they are interested in but have no idea what they exactly want. 
+
+------
+
+#### Reverse Engineering The Site 
+__Glimpse__
+
+Taking a look at their recommend-er system when the users has glanced at a a particular item for example a blue button-down shirt, the user is able to view the shirt, the price, what sizes are available,what colors are available. Scrolling down users are able to see what reviews the customers gave.  
+
+![](https://i.imgur.com/v4haybJ.png) 
+
+
+------
+
+
+__Recommender System__ 
+
+
+Looking at the recommendation in the Customers also loved section, we can see that the algorithm recommends different color shirts with various styles like long-sleeved shirts or short-sleeved shirts. It also gives me shirts with similar ratings and around the same price range. The algorithm seems to take factors like the type of cloth, the rating, and the price range of what the users have selected into consideration. 
+  
+![](https://i.imgur.com/ZscsaZa.png)
+
+------
+
+__Sponsored Items__
+
+
+If we look below the recommended items, we can also see another recommended system where the algorithm seems to place items sponsoring the company to establish their brands in front of users. In this case, we can see Macy displaying certain clotheslines unrelated to the users' search query. For example, even though I have searched up blue button-down shirts in the sponsored items, I can see that the results in that section are restricted to shirts from Hugo boss. Despite what items the customer had searched for it, it will place its items that the company sponsors. 
+
+![](https://i.imgur.com/HjnomcQ.png)
+
+------
+
+#### Suggested Improvements 
+
+The website looks nice and sleek. One of the things that I would try to experiment with is to try something Amazon had done in their system to implement a system where the recommender would suggest other people's outfits with that particular item the user was browsing at. Or take a look at what other users' shopping carts looked like with that item in the cart. I would also remove the sponsored items mostly because it doesn't seem appropriate to me and can be a potential turn-off for users. 
+
+------
+
+### Conclusion: 
+
+Macy's has a nice and sleek website for its many users. Users can quickly search for what they want or get strung along by the recommender to see if they can find anything. The only thing I would improve upon is tweaking their recommenders to implement perhaps a cluster model similar to what Amazon has done to help users with similar tastes find what they are looking for. Besides that, everything looks great! 
+
+------
+
+#### Helpful References
+
+Thiele, Chad. “Macy's Is Moving toward the Future of Retail with RFID and Artificial Intelligence.” Chadjthiele.com, 28 July 2016, https://chadjthiele.com/2016/07/28/macys-is-moving-toward-the-future-of-retail-with-rfid-and-ai/. 
+
+“Recommendation System -Understanding the Basic Concepts.” Analytics Vidhya, 13 July 2021, https://www.analyticsvidhya.com/blog/2021/07/recommendation-system-understanding-the-basic-concepts/. 
+
